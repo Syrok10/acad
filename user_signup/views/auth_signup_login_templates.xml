@@ -192,9 +192,15 @@
                                 </div>
                              </div>
                           </div>
-<!--                           <div class="modal-footer">
+                          <hr/>
+                          <div>
+                              <button type="button" class="btn btn-primary" >Sign Up</button>
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Add Another Dependent</button>
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Previous Step</button>
+                          </div>
+<!--                           <div class="modal-footer">-->
 
-                          </div> -->
+<!--                               </div> &ndash;&gt;-->
                         </div><!-- /.modal-content -->
                       </div><!-- /.modal-dialog -->
                     </div><!-- /.modal -->
