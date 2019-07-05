@@ -16,33 +16,20 @@
                 <input type="text" name="login" t-att-value="login" id="login" class="form-control form-control-sm" autofocus="autofocus"
                     autocapitalize="off" required="required" t-att-readonly="'readonly' if only_passwords else None"/>
             </div>
-
-                                        <div class="container">
-                                <div class="row">
-                                  <div class="col-md-6">
-                                      <div class="tabs">
-                                          <ul class="nav nav-tabs">
-                                              <li class="active"><a href="#tab-1" data-toggle="tab">tab1</a></li>
-                                              <li><a href="#tab-2" data-toggle="tab">tab2</a></li>
-                                              <li><a href="#tab-3" data-toggle="tab">tab3</a></li>
-                                          </ul>
-                                          <div class="tab-content">
-                                              <div class="tab-pane active" id="tab-1">
-                                                  <p>text </p>
-                                              </div>
-                                              <div class="tab-pane" id="tab2">
-                                                  <p>Text</p>
-                                              </div>
-                                              <div class="tab-pane" id="tab3">
-                                                  <p>
-                                                      text
-                                                  </p>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </div>
-                                </div>
-                            </div>
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
 <!--            <div class="form-group field-name">-->
 <!--                <label for="name">Your Name</label>-->
 <!--                <input type="text" name="name" t-att-value="name" id="name" class="form-control form-control-sm" placeholder="e.g. John Doe"-->
