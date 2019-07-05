@@ -144,9 +144,11 @@
                                             </t>
                                         </select>
                                     </div>
-                                    <hr/>
+                                <hr/>
+                                <div>
                                     <button type="button" class="btn btn-primary" >Next Step</button>
                                     <button type="button" class="btn btn-default" data-dismiss="modal">Go back</button>
+                                </div>
                                 </div>
 
 <!--                                Dependents or children block-->
@@ -176,7 +178,7 @@
                                     <div class="form-group field-birthday">
                                         <label for="birthday" class="control-label">Your Birthday</label>
                                         <input type="date" name="birthday" t-att-value="birthday" id="birthday" class="form-control" required="required" t-att-readonly="'readonly' if only_passwords else None"
-                                            t-att-autofocus="'autofocus' if login and not only_passwords else None" />
+                                        t-att-autofocus="'autofocus' if login and not only_passwords else None" />
                                     </div>
 
                                    <b>We ask for dependent birthday info to determine which of our waivers you need to sign</b>
@@ -184,15 +186,15 @@
                                    <div class="form-group field-promo-code">
                                        <label for="promo-code" class="control-label">Promo code</label>
                                        <input type="text" name="promo-code" id="promo-code" class="form-control" required="required" t-att-readonly="'readonly' if only_passwords else None"
-                                            t-att-autofocus="'autofocus' if login and not only_passwords else None" />
+                                        t-att-autofocus="'autofocus' if login and not only_passwords else None" />
                                    </div>
 
                                 </div>
                              </div>
                           </div>
-                          <div class="modal-footer">
+<!--                           <div class="modal-footer">
 
-                          </div>
+                          </div> -->
                         </div><!-- /.modal-content -->
                       </div><!-- /.modal-dialog -->
                     </div><!-- /.modal -->
