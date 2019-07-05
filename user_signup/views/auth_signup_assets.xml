@@ -3,9 +3,6 @@
     <template id="assets_frontend" inherit_id="web.assets_frontend" name="Auth Assets">
         <xpath expr="." position="inside">
             <script type="text/javascript" src="/auth_signup/static/src/js/signup.js"></script>
-<!--            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>-->
-<!--            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
-<!--            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
         </xpath>
     </template>
 </odoo>
