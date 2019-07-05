@@ -188,17 +188,18 @@
                                        <input type="text" name="promo-code" id="promo-code" class="form-control" required="required" t-att-readonly="'readonly' if only_passwords else None"
                                         t-att-autofocus="'autofocus' if login and not only_passwords else None" />
                                    </div>
-
+                                   <hr/>
+                                     <div>
+                                        <button type="button" class="btn btn-primary" >Sign Up</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Add Another Dependent</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Previous Step</button>
+                                     </div>
                                 </div>
                              </div>
+
                           </div>
 
-                          <hr/>
-                          <div>
-                              <button type="button" class="btn btn-primary" >Sign Up</button>
-                              <button type="button" class="btn btn-default" data-dismiss="modal">Add Another Dependent</button>
-                              <button type="button" class="btn btn-default" data-dismiss="modal">Previous Step</button>
-                          </div>
+
 <!--                           <div class="modal-footer">-->
 
 <!--                               </div> &ndash;&gt;-->
