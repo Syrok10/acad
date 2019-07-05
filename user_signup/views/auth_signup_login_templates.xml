@@ -22,18 +22,18 @@
                                   <div class="col-md-6">
                                       <div class="tabs">
                                           <ul class="nav nav-tabs">
-                                              <li class="active"><a href="">tab1</a></li>
-                                              <li><a href="">tab2</a></li>
-                                              <li><a href="">tab3</a></li>
+                                              <li class="active"><a href="#tab-1" data-toggle="tab">tab1</a></li>
+                                              <li><a href="#tab-2" data-toggle="tab">tab2</a></li>
+                                              <li><a href="#tab-3" data-toggle="tab">tab3</a></li>
                                           </ul>
                                           <div class="tab-content">
-                                              <div class="tab-pane active">
+                                              <div class="tab-pane active" id="tab-1">
                                                   <p>text </p>
                                               </div>
-                                              <div class="tab-pane">
+                                              <div class="tab-pane" id="tab2">
                                                   <p>Text</p>
                                               </div>
-                                              <div class="tab-pane">
+                                              <div class="tab-pane" id="tab3">
                                                   <p>
                                                       text
                                                   </p>
